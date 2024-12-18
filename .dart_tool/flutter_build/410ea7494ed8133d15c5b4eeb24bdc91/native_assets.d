@@ -1,0 +1,1 @@
+ C:\\Users\\Haythem\\AndroidStudioProjects\\front_esprit\\esprit\\.dart_tool\\flutter_build\\410ea7494ed8133d15c5b4eeb24bdc91\\native_assets.yaml: 

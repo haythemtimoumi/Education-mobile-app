@@ -1,0 +1,247 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.esprit"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\android\app\src\main\AndroidManifest.xml:4:5-67
+15-->C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\android\app\src\main\AndroidManifest.xml:4:22-64
+16    <!-- Add the INTERNET permission here -->
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\android\app\src\main\AndroidManifest.xml:3:5-76
+17-->C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\android\app\src\main\AndroidManifest.xml:3:22-74
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\android\app\src\main\AndroidManifest.xml:5:5-79
+18-->C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\android\app\src\main\AndroidManifest.xml:5:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\android\app\src\main\AndroidManifest.xml:6:5-80
+19-->C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\android\app\src\main\AndroidManifest.xml:6:22-78
+20    <!--
+21 Required to query activities that can process text, see:
+22         https://developer.android.com/training/package-visibility and
+23         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+24
+25         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+26    -->
+27    <queries>
+27-->C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\android\app\src\main\AndroidManifest.xml:45:5-50:15
+28        <intent>
+28-->C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\android\app\src\main\AndroidManifest.xml:46:9-49:18
+29            <action android:name="android.intent.action.PROCESS_TEXT" />
+29-->C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\android\app\src\main\AndroidManifest.xml:47:13-72
+29-->C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\android\app\src\main\AndroidManifest.xml:47:21-70
+30
+31            <data android:mimeType="text/plain" />
+31-->C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\android\app\src\main\AndroidManifest.xml:48:13-50
+31-->C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\android\app\src\main\AndroidManifest.xml:48:19-48
+32        </intent>
+33    </queries>
+34
+35    <uses-permission android:name="android.permission.VIBRATE" />
+35-->[:flutter_local_notifications] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-66
+35-->[:flutter_local_notifications] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-63
+36    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+36-->[:location] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+36-->[:location] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+37    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+37-->[:location] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+37-->[:location] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
+38
+39    <permission
+39-->[androidx.core:core:1.13.1] C:\Users\Haythem\.gradle\caches\transforms-3\f41476b6df1d004d92c59b9e1ffb379a\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+40        android:name="com.example.esprit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.13.1] C:\Users\Haythem\.gradle\caches\transforms-3\f41476b6df1d004d92c59b9e1ffb379a\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.13.1] C:\Users\Haythem\.gradle\caches\transforms-3\f41476b6df1d004d92c59b9e1ffb379a\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.example.esprit.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.13.1] C:\Users\Haythem\.gradle\caches\transforms-3\f41476b6df1d004d92c59b9e1ffb379a\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.13.1] C:\Users\Haythem\.gradle\caches\transforms-3\f41476b6df1d004d92c59b9e1ffb379a\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+44
+45    <application
+46        android:name="android.app.Application"
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.13.1] C:\Users\Haythem\.gradle\caches\transforms-3\f41476b6df1d004d92c59b9e1ffb379a\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+48        android:debuggable="true"
+49        android:icon="@mipmap/ic_launcher"
+50        android:label="esprit" >
+51        <activity
+52            android:name="com.example.esprit.MainActivity"
+53            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+54            android:exported="true"
+55            android:hardwareAccelerated="true"
+56            android:launchMode="singleTop"
+57            android:taskAffinity=""
+58            android:theme="@style/LaunchTheme"
+59            android:windowSoftInputMode="adjustResize" >
+60
+61            <!--
+62                 Specifies an Android theme to apply to this Activity as soon as
+63                 the Android process has started. This theme is visible to the user
+64                 while the Flutter UI initializes. After that, this theme continues
+65                 to determine the Window background behind the Flutter UI.
+66            -->
+67            <meta-data
+68                android:name="io.flutter.embedding.android.NormalTheme"
+69                android:resource="@style/NormalTheme" />
+70
+71            <intent-filter>
+72                <action android:name="android.intent.action.MAIN" />
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+75            </intent-filter>
+76        </activity>
+77        <!--
+78             Don't delete the meta-data below.
+79             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+80        -->
+81        <meta-data
+82            android:name="flutterEmbedding"
+83            android:value="2" />
+84
+85        <service
+85-->[:location] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-17:56
+86            android:name="com.lyokone.location.FlutterLocationService"
+86-->[:location] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-71
+87            android:enabled="true"
+87-->[:location] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-35
+88            android:exported="false"
+88-->[:location] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+89            android:foregroundServiceType="location" />
+89-->[:location] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-53
+90
+91        <provider
+91-->[:open_file_android] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\open_file_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-21:20
+92            android:name="com.crazecoder.openfile.FileProvider"
+92-->[:open_file_android] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\open_file_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-64
+93            android:authorities="com.example.esprit.fileProvider.com.crazecoder.openfile"
+93-->[:open_file_android] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\open_file_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-88
+94            android:exported="false"
+94-->[:open_file_android] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\open_file_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
+95            android:grantUriPermissions="true"
+95-->[:open_file_android] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\open_file_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-47
+96            android:requestLegacyExternalStorage="true" >
+96-->[:open_file_android] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\open_file_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-56
+97            <meta-data
+97-->[:open_file_android] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\open_file_android\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-20:53
+98                android:name="android.support.FILE_PROVIDER_PATHS"
+98-->[:open_file_android] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\open_file_android\intermediates\merged_manifest\debug\AndroidManifest.xml:19:17-67
+99                android:resource="@xml/filepaths" />
+99-->[:open_file_android] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\open_file_android\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-50
+100        </provider>
+101
+102        <activity
+102-->[:url_launcher_android] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+103            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+103-->[:url_launcher_android] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+104            android:exported="false"
+104-->[:url_launcher_android] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+105            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+105-->[:url_launcher_android] C:\Users\Haythem\AndroidStudioProjects\front_esprit\esprit\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+106
+107        <uses-library
+107-->[androidx.window:window:1.2.0] C:\Users\Haythem\.gradle\caches\transforms-3\d4a6ca5503a19dcea0f3b651be9acab7\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+108            android:name="androidx.window.extensions"
+108-->[androidx.window:window:1.2.0] C:\Users\Haythem\.gradle\caches\transforms-3\d4a6ca5503a19dcea0f3b651be9acab7\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+109            android:required="false" />
+109-->[androidx.window:window:1.2.0] C:\Users\Haythem\.gradle\caches\transforms-3\d4a6ca5503a19dcea0f3b651be9acab7\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+110        <uses-library
+110-->[androidx.window:window:1.2.0] C:\Users\Haythem\.gradle\caches\transforms-3\d4a6ca5503a19dcea0f3b651be9acab7\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+111            android:name="androidx.window.sidecar"
+111-->[androidx.window:window:1.2.0] C:\Users\Haythem\.gradle\caches\transforms-3\d4a6ca5503a19dcea0f3b651be9acab7\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+112            android:required="false" />
+112-->[androidx.window:window:1.2.0] C:\Users\Haythem\.gradle\caches\transforms-3\d4a6ca5503a19dcea0f3b651be9acab7\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+113
+114        <activity
+114-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Haythem\.gradle\caches\transforms-3\e6db6139495a9c77ca34c05a2d6bb7e8\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+115-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Haythem\.gradle\caches\transforms-3\e6db6139495a9c77ca34c05a2d6bb7e8\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Haythem\.gradle\caches\transforms-3\e6db6139495a9c77ca34c05a2d6bb7e8\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Haythem\.gradle\caches\transforms-3\e6db6139495a9c77ca34c05a2d6bb7e8\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+118
+119        <meta-data
+119-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Haythem\.gradle\caches\transforms-3\eaab88a4b8116195037bc89f38300c22\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+120            android:name="com.google.android.gms.version"
+120-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Haythem\.gradle\caches\transforms-3\eaab88a4b8116195037bc89f38300c22\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+121            android:value="@integer/google_play_services_version" />
+121-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\Haythem\.gradle\caches\transforms-3\eaab88a4b8116195037bc89f38300c22\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+122
+123        <provider
+123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Haythem\.gradle\caches\transforms-3\e2fd987b7451a8efac0f7640b6b8a919\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+124            android:name="androidx.startup.InitializationProvider"
+124-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Haythem\.gradle\caches\transforms-3\e2fd987b7451a8efac0f7640b6b8a919\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+125            android:authorities="com.example.esprit.androidx-startup"
+125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Haythem\.gradle\caches\transforms-3\e2fd987b7451a8efac0f7640b6b8a919\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+126            android:exported="false" >
+126-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Haythem\.gradle\caches\transforms-3\e2fd987b7451a8efac0f7640b6b8a919\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+127            <meta-data
+127-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Haythem\.gradle\caches\transforms-3\e2fd987b7451a8efac0f7640b6b8a919\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+128                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+128-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Haythem\.gradle\caches\transforms-3\e2fd987b7451a8efac0f7640b6b8a919\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+129                android:value="androidx.startup" />
+129-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Haythem\.gradle\caches\transforms-3\e2fd987b7451a8efac0f7640b6b8a919\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+130            <meta-data
+130-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Haythem\.gradle\caches\transforms-3\091a16723a6e318b9f9d526240b917f7\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+131                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+131-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Haythem\.gradle\caches\transforms-3\091a16723a6e318b9f9d526240b917f7\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+132                android:value="androidx.startup" />
+132-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Haythem\.gradle\caches\transforms-3\091a16723a6e318b9f9d526240b917f7\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+133            <meta-data
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+134                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+135                android:value="androidx.startup" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+136        </provider>
+137
+138        <receiver
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+139            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+140            android:directBootAware="false"
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+141            android:enabled="true"
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+142            android:exported="true"
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+143            android:permission="android.permission.DUMP" >
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+144            <intent-filter>
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+145                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+146            </intent-filter>
+147            <intent-filter>
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+148                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+149            </intent-filter>
+150            <intent-filter>
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+151                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+152            </intent-filter>
+153            <intent-filter>
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+154                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+154-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+154-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Haythem\.gradle\caches\transforms-3\34758bf094995e6c40090ba06b061f11\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+155            </intent-filter>
+156        </receiver>
+157    </application>
+158
+159</manifest>
